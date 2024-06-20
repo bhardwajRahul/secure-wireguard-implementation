@@ -121,8 +121,10 @@ key pair without a password.
 
 ![](media/image7.jpeg)
 
-Once this is done save both the public and private keys. The public key
-will be saved as `authorized_keys` and the private key will be saved with a filename of
+Once this is done save both the public and private keys. I recommend copying and pasting
+from the window itself as that is the correct format for the key to be in. Saving it by clicking
+on the button saves it in a different format and you'll get a refusal error from the server.
+The public key must be saved as `authorized_keys` and the private key will can saved with a filename of
 your choosing (ending in .ppk, the PuTTY format). To ensure future
 compatibility be sure to click on the conversions option and select
 export what you have generated as OpenSSH key, again without a password.
